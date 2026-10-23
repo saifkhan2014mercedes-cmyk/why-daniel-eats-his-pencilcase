@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Does Daniel Eat His Pencil Case?</title>
+    <style>
+        body {
+            background-color: #87CEEB; /* Soft Sky Blue */
+            font-family: Arial, sans-serif;
+            color: #2c3e50;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            backdrop-filter: blur(10px);
+            text-align: center;
+        }
+
+        h1 {
+            color: #1e3c72;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .theory-box {
+            background: #ffffff;
+            border-left: 5px solid #007bb5;
+            border-radius: 8px;
+            padding: 15px 20px;
+            margin: 15px 0;
+            text-align: left;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .theory-box h3 {
+            margin: 0 0 8px 0;
+            color: #007bb5;
+        }
+
+        .theory-box p {
+            margin: 0;
+            line-height: 1.5;
+            color: #444;
+        }
+
+        .footer-note {
+            margin-top: 25px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>The Mystery of Daniel's Pencil Case</h1>
+        <p class="subtitle">An ongoing scientific investigation into Daniel's questionable snack choices.</p>
+
+        <div class="theory-box">
+            <h3>Theory 1: High Fiber Diet</h3>
+            <p>Zipper canvas and synthetic polymers provide a texture unlike any regular food. Daniel believes it contributes to a balanced stationery diet.</p>
+        </div>
+
+        <div class="theory-box">
+            <h3>Theory 2: Classroom Stress Relief</h3>
+            <p>When math gets too tough, chewing on a pencil case is cheaper than therapy and tastes better than homework.</p>
+        </div>
+
+        <div class="theory-box">
+            <h3>Theory 3: He Left His Lunch at Home</h3>
+            <p>Why buy cafeteria food when you have a perfectly good fabric pouch full of graphite and eraser shavings right in front of you?</p>
+        </div>
+
+        <p class="footer-note">If you see Daniel, please remind him that stationery is for writing, not snacking.</p>
+    </div>
+
+</body>
+</html>
